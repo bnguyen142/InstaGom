@@ -2,7 +2,7 @@
 
 **Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## User Stories
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='instagom1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='instagom5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='instagom2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='instagom3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='instagom4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
@@ -38,6 +38,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+I had issue with saving post with photos. It took a while to figure it out with the assistance of CodePath Mentors. 
 
 ## Open-source libraries used
 
