@@ -11,11 +11,11 @@
         android:id="@+id/btnCaptureImage"
         android:layout_width="312dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="536dp"
+        android:layout_marginBottom="452dp"
         android:text="TAKE PICTURE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView

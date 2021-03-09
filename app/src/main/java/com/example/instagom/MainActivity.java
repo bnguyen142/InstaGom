@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView ivPostImage;
     private Button btnSubmit;
     private File photoFile;
-    public String photoFileName = "photo.jpg)";
+    public String photoFileName = "photo.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
