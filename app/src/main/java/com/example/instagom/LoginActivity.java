@@ -31,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText ePassword;
     private Button eLogin;
     boolean isValid = false;
+    private Button signUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +51,16 @@ public class LoginActivity extends AppCompatActivity {
         eName = findViewById(R.id.etName);
         ePassword = findViewById(R.id.etPassword);
         eLogin = findViewById(R.id.btnLogin);
+        signUp = findViewById(R.id.btnSignUp);
 
+        signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(LoginActivity.this,"Signing up now",Toast.LENGTH_SHORT).show();
+                //setContentView(R.layout.create_new_user);
+                goCreateNewUser();
+            }
+        });
         //setting up listener for pressing the button login
         eLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +83,12 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void goCreateNewUser() {
+        Intent ii = new Intent( this,createNewUser.class);
+        startActivity(ii);
+        finish();
     }
 
     private void loginUser(String username, String password) {
