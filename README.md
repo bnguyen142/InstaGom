@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] User can log out with the exit icon in the app bar
+- [X] User can log out with the exit icon in the app bar
 
 ## Video Walkthrough
 
@@ -43,7 +43,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-I had issue with saving post with photos. It took a while to figure it out with the assistance of CodePath Mentors. 
+I had to adjust code when I moved the logout icon to the app bar. 
 
 ## Open-source libraries used
 
